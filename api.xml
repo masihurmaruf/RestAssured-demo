@@ -1,0 +1,17 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="ApiTestSuite">
+    <test name="ApiTest">
+        <groups>
+            <run>
+                <!--<include name="default"/>-->
+                <!--<include name="response"/>-->
+                <include name="google"/>
+            </run>
+        </groups>
+        <packages>
+            <package name="com.codingmechanic.framework"/>
+            <package name="com.codingmechanic.scripts"/>
+        </packages>
+    </test>
+</suite>
