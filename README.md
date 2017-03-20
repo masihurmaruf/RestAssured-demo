@@ -2,7 +2,7 @@
 
 ## Overview
 
-Sample Web project creted using vaadin
+Sample project created using Rest-assured to test REST Api.
 
 ## Project Information
 

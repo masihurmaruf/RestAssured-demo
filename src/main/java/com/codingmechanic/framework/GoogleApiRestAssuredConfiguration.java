@@ -14,6 +14,7 @@ public class GoogleApiRestAssuredConfiguration {
 
     @BeforeSuite(alwaysRun = true)
     public void configure(){
+        // https://www.googleapis.com/books/v1/volumes?q=turing
         RestAssured.baseURI = "https://www.googleapis.com/";
         RestAssured.basePath = "/books";
     }
